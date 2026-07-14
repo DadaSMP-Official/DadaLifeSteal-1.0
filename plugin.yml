@@ -1,0 +1,17 @@
+name: DadaLifeSteal
+version: 1.0.0
+main: it.dadasmp.lifesteal.DadaLifeSteal
+api-version: "1.20"
+author: DadaSMP
+commands:
+  cuori:
+    description: Gestisce e controlla i cuori LifeSteal.
+    usage: /cuori
+    aliases: [hearts, lifesteal, ls]
+permissions:
+  dadalifesteal.use:
+    default: true
+  dadalifesteal.withdraw:
+    default: true
+  dadalifesteal.admin:
+    default: op
